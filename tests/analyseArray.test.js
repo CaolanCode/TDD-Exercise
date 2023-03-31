@@ -16,3 +16,7 @@ test('check character array', () => {
 test('check mixed array', () => {
   expect(analyseArray([1,'c',9,'q'])).toBe('Not a valid array of numbers')
 })
+
+test('check string', () => {
+  expect(analyseArray('hello')).toBe('Not a valid array of numbers')
+})
